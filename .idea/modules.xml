@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provide-user/microservice-provide-user.iml" filepath="$PROJECT_DIR$/microservice-provide-user/microservice-provide-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provide-user2/microservice-provide-user2.iml" filepath="$PROJECT_DIR$/microservice-provide-user2/microservice-provide-user2.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" />
     </modules>
   </component>
