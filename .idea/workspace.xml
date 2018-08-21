@@ -2,41 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87415b8c-5c0b-4638-a720-c6634f4df6a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/config/RibbonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/MicroserviceProvideUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/main/java/com/itmuch/cloud/MicroserviceProvideUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/main/java/com/itmuch/cloud/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/main/java/com/itmuch/cloud/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/main/java/com/itmuch/cloud/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provide-user2/src/test/java/com/itmuch/cloud/microserviceprovideuser/MicroserviceProvideUserApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/test/java/com/itmuch/cloud/microserviceconsumermovieribbon/MicroserviceConsumerMovieRibbonPropertiesCustomizingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithoutEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/test/java/com/itmuch/cloud/microserviceconsumermovieribbon/MicroserviceConsumerMovieRibbonWithoutEurekaApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/config/RibbonConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../microservice-simple-provide-user/target/" />
     <ignored path="$PROJECT_DIR$/../microservice-simple-consumer-movie/target/" />
@@ -47,6 +39,9 @@
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/microservice-provide-user/target/" />
     <ignored path="$PROJECT_DIR$/microservice-provide-user2/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon2/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,39 +64,48 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MicroserviceConsumerMovieRibbonApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonApplication.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MicroserviceConsumerMovieRibbonWithoutEurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithoutEurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/controller/MovieController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RibbonConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/config/RibbonConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provide-user2/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -163,6 +167,10 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonApplication.java" />
         <option value="$PROJECT_DIR$/microservice-provide-user2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithoutEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -188,9 +196,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="193" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="97" />
+    <option name="y" value="74" />
     <option name="width" value="1395" />
     <option name="height" value="913" />
   </component>
@@ -202,87 +210,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itmuch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itmuch" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itmuch" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itmuch" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user2" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-without-eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -291,7 +275,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +287,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-provide-user2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -314,17 +297,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea-workplace\code\microservice" />
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\java\com\itmuch\cloud" />
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itmuch.cloud.entity" />
       <recent name="com.itmuch.cloud.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-workplace\code\microservice" />
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\java\com\itmuch\cloud" />
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,7 +326,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.27548006" />
+    <option name="contentProportion" value="0.32791328" />
   </component>
   <component name="RunManager" selected="Spring Boot.MicroserviceConsumerMovieRibbonApplication">
     <configuration default="true" type="Application" factoryName="Application">
@@ -383,6 +366,11 @@
     <configuration name="MicroserviceConsumerMovieRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-consumer-movie-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.MicroserviceConsumerMovieRibbonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-ribbon-properties-customizing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="MicroserviceDiscoveryEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -430,6 +418,7 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MicroserviceConsumerMovieRibbonApplication" />
+      <item itemvalue="Spring Boot.MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication" />
       <item itemvalue="Spring Boot.MicroserviceProvideUser2Application" />
       <item itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication" />
       <item itemvalue="Spring Boot.MicroserviceDiscoveryEurekaApplication" />
@@ -450,7 +439,8 @@
       <workItem from="1534232859166" duration="12539000" />
       <workItem from="1534292664002" duration="19685000" />
       <workItem from="1534323282640" duration="9128000" />
-      <workItem from="1534758977698" duration="4374000" />
+      <workItem from="1534758977698" duration="5082000" />
+      <workItem from="1534809522417" duration="11177000" />
     </task>
     <task id="LOCAL-00001" summary="服务消费者与服务提供者,eureka服务注册与服务发现">
       <created>1534248112851</created>
@@ -466,14 +456,28 @@
       <option name="project" value="LOCAL" />
       <updated>1534338386138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ribbon通过代码自定义配置">
+      <created>1534763933937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534763933937</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ribbon通过配置文件自定义配置">
+      <created>1534811636953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534811636953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53617000" />
+    <option name="totallyTimeSpent" value="65502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="97" y="74" width="1395" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -491,14 +495,14 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32824427" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Java Enterprise" order="7" visible="true" weight="0.3888889" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" visible="true" weight="0.3456925" />
+      <window_info anchor="bottom" id="Run Dashboard" order="7" weight="0.3456925" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25906184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36779025" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -520,7 +524,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="服务消费者与服务提供者,eureka服务注册与服务发现" />
     <MESSAGE value="加入ribbon,通过负载均衡策略将请求分摊给多个服务提供者" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入ribbon,通过负载均衡策略将请求分摊给多个服务提供者" />
+    <MESSAGE value="ribbon通过代码自定义配置" />
+    <MESSAGE value="ribbon通过配置文件自定义配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="ribbon通过配置文件自定义配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,48 +538,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.197/h2-1.4.197.jar!/org/h2/message/DbException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provide-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/Repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/bind/annotation/GetMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -856,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provide-user2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -870,10 +827,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/controller/MovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="76">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provide-user2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithoutEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/java/com/itmuch/cloud/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -929,7 +935,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservice-provide-user2</last-edited>
+          <last-edited>microservice-consumer-movie-ribbon-without-eureka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

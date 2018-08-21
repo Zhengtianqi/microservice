@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provide-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provide-user2" charset="UTF-8" />

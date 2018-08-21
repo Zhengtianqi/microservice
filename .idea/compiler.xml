@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-properties-customizing" />
+        <module name="microservice-consumer-movie-ribbon-without-eureka" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-provide-user" />
         <module name="microservice-provide-user2" />
@@ -15,6 +17,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-properties-customizing" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-without-eureka" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon2" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-provide-user" target="1.8" />
       <module name="microservice-provide-user2" target="1.8" />
