@@ -39,4 +39,14 @@ public class UserController {
         ServiceInstance localServiceInstance = this.discoveryClient.getLocalServiceInstance();
         return localServiceInstance;
     }*/
+
+    /**
+     * post
+     * @param user
+     * @return
+     */
+    @PostMapping("/user")
+    public User postUser(@RequestBody User user){
+        return user;
+    }
 }
