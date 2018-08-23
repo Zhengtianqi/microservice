@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FUSUsageTrigger">
+    <session id="-1653281639">
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/microservice-consumer-movie-feign" />
     <type id="Spring" />
@@ -18,6 +27,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/pom.xml" />
       </list>
     </option>
   </component>
