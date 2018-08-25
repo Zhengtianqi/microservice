@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87415b8c-5c0b-4638-a720-c6634f4df6a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/microservice-consumer-movie-feign-customizing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignCustomizingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/test/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/microservice-consumer-movie-ribbon-with-hystrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/test/java/com/itmuch/cloud/microserviceconsumermovieribbon/MicroserviceConsumerMovieRibbonApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -32,12 +36,16 @@
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/microservice$MicroserviceConsumerMovieRibbonWithHystrixApplication.ic" NAME="MicroserviceConsumerMovieRibbonWithHystrixApplication Coverage Results" MODIFIED="1535178224754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,53 +63,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MicroserviceConsumerMovieFeignApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignApplication.java">
+      <file leaf-file-name="MicroserviceConsumerMovieRibbonWithHystrixApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithHystrixApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="23" column="97" lean-forward="true" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserFeignClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
+      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MicroserviceConsumerMovieFeignCustomizingApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignCustomizingApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="322">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserFeignClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -127,10 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../microservice-simple-consumer-movie/src/main/java/com/itmuch/cloud/MovieController.java" />
-        <option value="$PROJECT_DIR$/../microservice-simple-consumer-movie/src/main/java/com/itmuch/cloud/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/microservicediscoveryeureka/MicroserviceDiscoveryEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/../microservice-simple-consumer-movie/src/main/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.java" />
         <option value="$PROJECT_DIR$/../microservice-simple-provide-user/src/main/java/com/itmuch/cloud/MicroserviceSimpleProvideUserApplication.java" />
         <option value="$PROJECT_DIR$/../microservice-simple-consumer-movie/src/main/java/com/itmuch/cloud/controller/MovieController.java" />
         <option value="$PROJECT_DIR$/../microservice-simple-provide-user/src/main/resources/application.yml" />
@@ -177,6 +166,11 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignApplication.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithHystrixApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java" />
       </list>
     </option>
   </component>
@@ -216,52 +210,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-customizing" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-customizing" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-customizing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-customizing" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-customizing" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-customizing" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-customizing" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-consumer-movie-ribbon-with-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -270,8 +275,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +287,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -294,18 +297,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itmuch.cloud" />
+      <recent name="com.itmuch.cloud.entity" />
+      <recent name="com.itmuch.cloud.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea-workplace\code\microservice\microservice-consumer-movie-feign\src\main\java\com\itmuch\cloud" />
       <recent name="D:\idea-workplace\code\microservice" />
       <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\java\com\itmuch\cloud" />
       <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.itmuch.cloud.entity" />
-      <recent name="com.itmuch.cloud.controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,7 +330,7 @@
     </option>
     <option name="contentProportion" value="0.32791328" />
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroserviceConsumerMovieFeignCustomizingApplication">
+  <component name="RunManager" selected="Spring Boot.MicroserviceConsumerMovieRibbonWithHystrixApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -381,6 +385,11 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.MicroserviceConsumerMovieRibbonPropertiesCustomizingApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="MicroserviceConsumerMovieRibbonWithHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-ribbon-with-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.MicroserviceConsumerMovieRibbonWithHystrixApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="MicroserviceDiscoveryEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-discovery-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.microservice.microservicediscoveryeureka.MicroserviceDiscoveryEurekaApplication" />
@@ -433,6 +442,7 @@
       <item itemvalue="Spring Boot.MicroserviceProvideUserApplication" />
       <item itemvalue="Spring Boot.MicroserviceConsumerMovieFeignApplication" />
       <item itemvalue="Spring Boot.MicroserviceConsumerMovieFeignCustomizingApplication" />
+      <item itemvalue="Spring Boot.MicroserviceConsumerMovieRibbonWithHystrixApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -452,7 +462,8 @@
       <workItem from="1534758977698" duration="5082000" />
       <workItem from="1534809522417" duration="11177000" />
       <workItem from="1534893700972" duration="13857000" />
-      <workItem from="1534988833345" duration="1233000" />
+      <workItem from="1534988833345" duration="2713000" />
+      <workItem from="1535162229096" duration="6747000" />
     </task>
     <task id="LOCAL-00001" summary="服务消费者与服务提供者,eureka服务注册与服务发现">
       <created>1534248112851</created>
@@ -503,15 +514,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534930995181</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="加入Feign的另一种方法">
+      <created>1534992130530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534992130530</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80592000" />
+    <option name="totallyTimeSpent" value="88819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -525,16 +542,18 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32824427" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.27262813" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" order="7" visible="true" weight="0.41003272" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" visible="true" weight="0.38713196" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22654584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -542,7 +561,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32824427" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -561,11 +579,22 @@
     <MESSAGE value="ribbon通过配置文件自定义配置" />
     <MESSAGE value="加入Feign的get方法" />
     <MESSAGE value="加入Feign的post方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入Feign的post方法" />
+    <MESSAGE value="加入Feign的另一种方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入Feign的另一种方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java</url>
+          <line>34</line>
+          <properties class="com.itmuch.cloud.controller.MovieController" method="findByIdFallback">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -573,34 +602,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="486" selection-start-line="486" selection-end-line="486" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -842,9 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2869">
           <caret line="193" selection-start-line="193" selection-end-line="193" />
-          <folding>
-            <element signature="e#6249#6250#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,9 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="95">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -891,7 +886,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="76">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -915,8 +910,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="57">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonWithHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="97" lean-forward="true" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
         </state>
       </provider>
     </entry>
@@ -972,11 +995,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|microservice-consumer-movie-feign-customizing</last-edited>
+          <last-edited>microservice-consumer-movie-ribbon-with-hystrix</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4587156" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
