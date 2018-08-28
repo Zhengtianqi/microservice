@@ -1,0 +1,25 @@
+server:
+  port: 7904
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: microservice-consumer-movie-feign-customizing-without-hystrix
+feign:
+  hystrix:
+    enabled: true
+# spring cloud java.util.concurrent.TimeoutException解决方式
+# 设置熔断器检测时间（默认1秒）
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+logging:
+  level:
+    com.itmuch.cloud.feign.UserFeignClient: debug
+    com.itmuch.cloud.feign.FeignClient2: debug
+# 关闭熔断器超时检测时间功能，也就是不超时
+# hystrix.command.default.execution.timeout.enabled: false
+# 直接禁用feign的hystrix
+# feign.hystrix.enabled: false
