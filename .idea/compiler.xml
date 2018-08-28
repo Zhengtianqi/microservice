@@ -11,6 +11,7 @@
         <module name="microservice-consumer-movie-feign-customizing" />
         <module name="microservice-consumer-movie-feign-customizing-without-hystrix" />
         <module name="microservice-consumer-movie-feign-with-hystrix" />
+        <module name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" />
         <module name="microservice-consumer-movie-ribbon" />
         <module name="microservice-consumer-movie-ribbon-properties-customizing" />
         <module name="microservice-consumer-movie-ribbon-with-hystrix" />
@@ -28,6 +29,7 @@
       <module name="microservice-consumer-movie-feign-customizing" target="1.8" />
       <module name="microservice-consumer-movie-feign-customizing-without-hystrix" target="1.8" />
       <module name="microservice-consumer-movie-feign-with-hystrix" target="1.8" />
+      <module name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-properties-customizing" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-with-hystrix" target="1.8" />
