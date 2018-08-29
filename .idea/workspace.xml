@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87415b8c-5c0b-4638-a720-c6634f4df6a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/microservice-consumer-movie-feign-with-hystrix-hystrix-factory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignWithHystrixHystrixFactoryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/HystrixClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/HystrixClientFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/UserFeignClientWithClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_dashboard_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/microservicediscoveryeureka/MicroserviceDiscoveryEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/MicroserviceDiscoveryEurekaApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../microservice-simple-provide-user/target/" />
     <ignored path="$PROJECT_DIR$/../microservice-simple-consumer-movie/target/" />
@@ -37,6 +32,7 @@
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-hystrix-dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,59 +62,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserFeignClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
+      <file leaf-file-name="MicroserviceHystrixDashboardApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/microservice/MicroserviceHystrixDashboardApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HystrixClientFallback.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/HystrixClientFallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HystrixClientFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/HystrixClientFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="76">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MicroserviceConsumerMovieFeignWithHystrixHystrixFactoryApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignWithHystrixHystrixFactoryApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserFeignClientWithClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/UserFeignClientWithClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -144,11 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-provide-user/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/controller/MovieController.java" />
-        <option value="$PROJECT_DIR$/microservice-provide-user/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/config/RibbonConfig.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/config/RibbonConfig.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieRibbonApplication.java" />
@@ -195,6 +145,11 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/HystrixClientFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/microservicediscoveryeureka/MicroserviceDiscoveryEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/config/HystrixConfig.java" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/microservice/MicroserviceHystrixDashboardApplication.java" />
       </list>
     </option>
   </component>
@@ -235,79 +190,56 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,22 +251,19 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-hystrix-dashboard" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4587156" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea-workplace\code\microservice\microservice-consumer-movie-feign\src\main\java\com\itmuch\cloud" />
-      <recent name="D:\idea-workplace\code\microservice" />
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\java\com\itmuch\cloud" />
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itmuch.config" />
@@ -343,8 +272,11 @@
       <recent name="com.itmuch.cloud.entity" />
       <recent name="com.itmuch.cloud.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-workplace\code\microservice\microservice-consumer-movie-feign\src\main\java\com\itmuch\cloud" />
+      <recent name="D:\idea-workplace\code\microservice" />
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\java\com\itmuch\cloud" />
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,7 +297,7 @@
     </option>
     <option name="contentProportion" value="0.32791328" />
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroserviceConsumerMovieFeignWithHystrixHystrixFactoryApplication">
+  <component name="RunManager" selected="Spring Boot.MicroserviceHystrixDashboardApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -441,7 +373,17 @@
     </configuration>
     <configuration name="MicroserviceDiscoveryEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-discovery-eureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.microservice.microservicediscoveryeureka.MicroserviceDiscoveryEurekaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.microservice.MicroserviceDiscoveryEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="MicroserviceHystrixDashboardApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.microservice.MicroserviceHystrixDashboardApplication" />
+    </configuration>
+    <configuration name="MicroserviceHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.microservice.MicroserviceHystrixDashboardApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="MicroserviceProvideUser2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservice-provide-user2" />
@@ -495,6 +437,8 @@
       <item itemvalue="Spring Boot.MicroserviceConsumerMovieRibbonWithHystrixApplication" />
       <item itemvalue="Spring Boot.MicroserviceConsumerMovieFeignWithHystrixApplication" />
       <item itemvalue="Spring Boot.MicroserviceConsumerMovieFeignWithHystrixHystrixFactoryApplication" />
+      <item itemvalue="Spring Boot.MicroserviceHystrixDashboardApplication" />
+      <item itemvalue="Spring Boot.MicroserviceHystrixDashboardApplication (1)" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -521,7 +465,8 @@
       <workItem from="1535296479848" duration="170000" />
       <workItem from="1535336736054" duration="9570000" />
       <workItem from="1535420047959" duration="6338000" />
-      <workItem from="1535447439104" duration="5279000" />
+      <workItem from="1535447439104" duration="6590000" />
+      <workItem from="1535506542398" duration="3640000" />
     </task>
     <task id="LOCAL-00001" summary="服务消费者与服务提供者,eureka服务注册与服务发现">
       <created>1534248112851</created>
@@ -607,14 +552,22 @@
       <option name="project" value="LOCAL" />
       <updated>1535426982891</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="加入hystrix factory">
+      <created>1535458849915</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535458849915</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115636000" />
+    <option name="totallyTimeSpent" value="120587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -638,7 +591,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27985075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -670,7 +623,8 @@
     <MESSAGE value="加入Hystrix-propagation  delete all test" />
     <MESSAGE value="使用feign时加入hystrix超时机制和断路机制" />
     <MESSAGE value="解决Feign/Ribbon第一次请求失败;加入feign的自定义配置并且加入日志;可以通过访问eureka的应用名来进行服务发现" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决Feign/Ribbon第一次请求失败;加入feign的自定义配置并且加入日志;可以通过访问eureka的应用名来进行服务发现" />
+    <MESSAGE value="加入hystrix factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入hystrix factory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,62 +646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/MicroserviceProvideUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2869">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17594">
-          <caret line="981" selection-start-line="981" selection-end-line="981" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5833">
-          <caret line="328" selection-start-line="328" selection-end-line="328" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignCustomizingApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -801,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -953,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,9 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -973,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,10 +915,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/src/main/java/com/itmuch/cloud/feign/HystrixClientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="342">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/MicroserviceDiscoveryEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/2.0.1.RELEASE/spring-cloud-netflix-core-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/config/HystrixConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/microservice/MicroserviceHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1093,7 +1046,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|microservice-consumer-movie-feign-with-hystrix-hystrix-factory</last-edited>
+          <last-edited>Spring|microservice-hystrix-dashboard</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

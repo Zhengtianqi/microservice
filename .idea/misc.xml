@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing-without-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
       </list>
     </option>
   </component>
