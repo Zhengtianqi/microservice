@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87415b8c-5c0b-4638-a720-c6634f4df6a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zuul_1_4_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/java/com/itmuch/microservice/ZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml.bak2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml.bak3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/MicroserviceDiscoveryEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/MicroserviceDiscoveryEurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../microservice-simple-provide-user/target/" />
     <ignored path="$PROJECT_DIR$/../microservice-simple-consumer-movie/target/" />
@@ -72,24 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZuulApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/java/com/itmuch/microservice/ZuulApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="393">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -205,74 +178,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-gateway-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-gateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-provide-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -282,6 +190,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,15 +207,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-gateway-zuul" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4587156" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-workplace\code\microservice\microservice-gateway-zuul\src\main\resources" />
+      <recent name="D:\idea-workplace\code\microservice\microservice-consumer-movie-feign\src\main\java\com\itmuch\cloud" />
+      <recent name="D:\idea-workplace\code\microservice" />
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\java\com\itmuch\cloud" />
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itmuch.config" />
@@ -314,11 +228,8 @@
       <recent name="com.itmuch.cloud.entity" />
       <recent name="com.itmuch.cloud.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea-workplace\code\microservice\microservice-consumer-movie-feign\src\main\java\com\itmuch\cloud" />
-      <recent name="D:\idea-workplace\code\microservice" />
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\java\com\itmuch\cloud" />
-      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea-workplace\code\microservice\microservice-provide-user\src\main\resources\db" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -509,7 +420,9 @@
       <workItem from="1535336736054" duration="9570000" />
       <workItem from="1535420047959" duration="6338000" />
       <workItem from="1535447439104" duration="6590000" />
-      <workItem from="1535506542398" duration="9047000" />
+      <workItem from="1535506542398" duration="9133000" />
+      <workItem from="1535550129204" duration="3140000" />
+      <workItem from="1535592038835" duration="9636000" />
     </task>
     <task id="LOCAL-00001" summary="服务消费者与服务提供者,eureka服务注册与服务发现">
       <created>1534248112851</created>
@@ -609,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535510238758</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="加入zuul 自定义服务提供者的路径">
+      <created>1535538425841</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1535538425841</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125994000" />
+    <option name="totallyTimeSpent" value="138856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -636,12 +556,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.27262813" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" visible="true" weight="0.44929117" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" visible="true" weight="0.3925845" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32824427" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28944564" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -675,7 +595,8 @@
     <MESSAGE value="解决Feign/Ribbon第一次请求失败;加入feign的自定义配置并且加入日志;可以通过访问eureka的应用名来进行服务发现" />
     <MESSAGE value="加入hystrix factory" />
     <MESSAGE value="引入hystrix-dashboard时访问hystrix-stream失败" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入hystrix-dashboard时访问hystrix-stream失败" />
+    <MESSAGE value="加入zuul 自定义服务提供者的路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入zuul 自定义服务提供者的路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -687,76 +608,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/java/com/itmuch/cloud/MicroserviceConsumerMovieFeignWithHystrixApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/LoadBalancerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="373" selection-start-line="373" selection-end-line="373" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/java/com/itmuch/cloud/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/java/com/itmuch/cloud/feign/HystrixClientFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/src/main/java/com/itmuch/cloud/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -895,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,28 +784,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/config/HystrixConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/config/HystrixConfig.java" />
     <entry file="file://$PROJECT_DIR$/microservice-hystrix-dashboard/src/main/java/com/itmuch/microservice/MicroserviceHystrixDashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,26 +802,12 @@
     <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/java/com/itmuch/microservice/MicroserviceDiscoveryEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/java/com/itmuch/microservice/MicroserviceDiscoveryEurekaApplication.java" />
     <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/itmuch/microservice/MicroserviceDiscoveryEurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-438" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/pom.xml">
@@ -1011,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,19 +840,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/java/com/itmuch/microservice/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="133">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/java/com/itmuch/cloud/Repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml.bak1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml.bak2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml.bak3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/Observable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="1606" selection-start-line="1606" selection-end-line="1606" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provide-user2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/AbstractCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="539" selection-start-line="539" selection-end-line="539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provide-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="393">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>

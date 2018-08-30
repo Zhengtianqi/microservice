@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: microservice-gateway-zuul
+# 默认端口号为8040
+server:
+  port: 8040
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+# 自定义路径
+zuul:
+  ignored-services: microservice-consumer-movie-ribbon-with-hystrix
+  routes:
+    microservice-provide-user: /user/**
+

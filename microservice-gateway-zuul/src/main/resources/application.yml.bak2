@@ -16,12 +16,7 @@ zuul:
 # ignored-services: microservice-consumer-movie-ribbon-with-hystrix
   routes:
     abc:
-      path: /user-url/**
-      service-id: microservice-provide-user
-ribbon:
-  eureka:
-    enabled: false
-microservice-provide-user:   # 这边是ribbon要请求的微服务的serviceId
-  ribbon:
-    listOfServers: http://localhost:7900, http://localhost:7901
-# Zuul指定Path+url以及指定可用的服务节点时 -> 如何负载均衡
+      path: /user-path/**
+      serviceId: microservice-provide-user
+# 后端的位置可以被指定为serviceId {(或 url(对于物理位置)}
+# 下一个实例是url
