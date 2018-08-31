@@ -20,6 +20,8 @@
         <module name="microservice-consumer-movie-ribbon-without-eureka" />
         <module name="microservice-discovery-eureka" />
         <module name="microservice-gateway-zuul" />
+        <module name="microservice-gateway-zuul-fallback" />
+        <module name="microservice-gateway-zuul-filter" />
         <module name="microservice-gateway-zuul-reg-exp" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-provide-user" />
@@ -43,6 +45,8 @@
       <module name="microservice-consumer-movie-ribbon2" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
       <module name="microservice-gateway-zuul" target="1.8" />
+      <module name="microservice-gateway-zuul-fallback" target="1.5" />
+      <module name="microservice-gateway-zuul-filter" target="1.5" />
       <module name="microservice-gateway-zuul-reg-exp" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-provide-user" target="1.8" />

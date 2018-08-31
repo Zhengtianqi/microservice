@@ -15,7 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/microservice-consumer-movie-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/microservice-consumer-movie-ribbon-without-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/microservice-gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-filter/microservice-gateway-zuul-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/microservice-gateway-zuul-reg-exp.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/microservice-gateway-zuul-reg-exp.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provide-user/microservice-provide-user.iml" filepath="$PROJECT_DIR$/microservice-provide-user/microservice-provide-user.iml" />

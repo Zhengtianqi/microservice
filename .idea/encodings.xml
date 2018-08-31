@@ -15,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-filter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-reg-exp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provide-user" charset="UTF-8" />
