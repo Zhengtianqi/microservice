@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-with-hystrix-hystrix-factory/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-reg-exp/pom.xml" />
       </list>
     </option>
   </component>

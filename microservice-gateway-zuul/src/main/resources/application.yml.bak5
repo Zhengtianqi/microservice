@@ -11,4 +11,7 @@ eureka:
   instance:
     prefer-ip-address: true
 zuul:
-  sensitive-headers:
+  prefix: /api
+  # 下边两个配置连用,访问的是/simple/microservice-provider-user/1
+  # prefix: /simple
+  # strip-prefix: false

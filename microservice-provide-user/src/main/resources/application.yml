@@ -23,8 +23,9 @@ spring:
     password: root
     platform: mysql
   application:
-    name: microservice-provide-user
-
+    #name: microservice-provide-user
+    # v1是version
+    name: microservice-provide-user-v1
 logging:
   level:
     root: INFO
