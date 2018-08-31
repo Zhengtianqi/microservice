@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87415b8c-5c0b-4638-a720-c6634f4df6a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/itmuch/cloud/controller/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-upload/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-gateway-zuul-filter/microservice-gateway-zuul-filter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-upload/src/main/java/com/itmuch/cloud/fileupload/FileUploadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/itmuch/cloud/FileUploadApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-upload/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-upload/src/test/java/com/itmuch/cloud/fileupload/FileUploadApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul/src/test/java/com/itmuch/cloud/microservicegatewayzuul/MicroserviceGatewayZuulApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="87415b8c-5c0b-4638-a720-c6634f4df6a3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../microservice-simple-provide-user/target/" />
     <ignored path="$PROJECT_DIR$/../microservice-simple-consumer-movie/target/" />
     <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
@@ -148,8 +130,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="409">
+              <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -543,7 +525,7 @@
       <workItem from="1535506542398" duration="9133000" />
       <workItem from="1535550129204" duration="3140000" />
       <workItem from="1535592038835" duration="9816000" />
-      <workItem from="1535676708395" duration="17889000" />
+      <workItem from="1535676708395" duration="18274000" />
     </task>
     <task id="LOCAL-00001" summary="服务消费者与服务提供者,eureka服务注册与服务发现">
       <created>1534248112851</created>
@@ -671,14 +653,22 @@
       <option name="project" value="LOCAL" />
       <updated>1535716913619</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Zuul文件上传，zuul过滤器和回退机制">
+      <created>1535729051499</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1535729051499</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156925000" />
+    <option name="totallyTimeSpent" value="157310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.36034116" side_tool="true" weight="0.3925845" />
@@ -697,13 +687,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.27262813" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.63965887" visible="true" weight="0.35441658" />
+      <window_info anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.63965887" visible="true" weight="0.35441658" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32824427" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
-      <window_info anchor="right" id="Bean Validation" order="10" visible="true" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Bean Validation" order="10" visible="true" weight="0.26972282" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -740,7 +730,8 @@
     <MESSAGE value="Zuul指定Path+url以及指定可用的服务节点时-&gt;如何负载均衡" />
     <MESSAGE value="Zuul的更多用法" />
     <MESSAGE value="Zuul不小心删除 恢复" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zuul不小心删除 恢复" />
+    <MESSAGE value="Zuul文件上传，zuul过滤器和回退机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zuul文件上传，zuul过滤器和回退机制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="409">
+          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
         </state>
       </provider>
     </entry>
